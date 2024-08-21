@@ -5,8 +5,7 @@ import React from 'react'
  
 const NavBar = ({children}:HeaderProps) => {
   return (
-    <div className="headers
-    ">
+    <div className="headers">
         <Link href={'/'} className='md:flex-1'>
           <Image 
           src='/assets/icons/logo.svg'
